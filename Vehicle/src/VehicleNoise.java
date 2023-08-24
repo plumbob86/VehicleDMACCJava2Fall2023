@@ -1,4 +1,5 @@
 import model.Example;
+import model.Train;
 
 public class VehicleNoise {
 	
@@ -9,6 +10,9 @@ public class VehicleNoise {
 		/*
 		 * Add a call to your vehicle below this comment.
 		 */
+		
+		Train train = new Train();
+		System.out.println(train.makeNoise());
 
 	}
 
