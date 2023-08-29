@@ -1,5 +1,6 @@
 import model.Example;
 import model.Train;
+import model.DirtBike;
 
 public class VehicleNoise {
 	
@@ -14,6 +15,8 @@ public class VehicleNoise {
 		Train train = new Train();
 		System.out.println(train.makeNoise());
 
+		DirtBike dirtbike = new DirtBike("Eli Tomac", 450, "Blue");
+		System.out.println(dirtbike.makeNoise());
 	}
 
 }
