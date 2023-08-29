@@ -2,6 +2,7 @@ import model.Car;
 import model.Example;
 import model.Car;
 import model.Train;
+import model.Motorcycle
 
 public class VehicleNoise {
 	
@@ -23,6 +24,10 @@ public class VehicleNoise {
 		// my vehicle noise
 		Car Mustang = new Car();
 		System.out.println(Mustang.makeNoise());
+		
+		// Motorcycle
+		Motorcycle motorcycle = new Motorcycle();
+		System.out.println(motorcycle.makeNoise());
 
 	}
 
