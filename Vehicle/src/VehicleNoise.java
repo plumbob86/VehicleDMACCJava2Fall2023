@@ -2,6 +2,7 @@ import model.Car;
 import model.Example;
 import model.Car;
 import model.Train;
+import model.DirtBike;
 
 public class VehicleNoise {
 	
@@ -24,6 +25,8 @@ public class VehicleNoise {
 		Car Mustang = new Car();
 		System.out.println(Mustang.makeNoise());
 
+		DirtBike dirtbike = new DirtBike("Eli Tomac", 450, "Blue");
+		System.out.println(dirtbike.makeNoise());
 	}
 
 }
