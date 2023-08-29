@@ -1,6 +1,6 @@
 import model.Example;
 import model.Train;
-
+import model.Truck;
 public class VehicleNoise {
 	
 	public static void main(String[] args) {
@@ -13,6 +13,10 @@ public class VehicleNoise {
 		
 		Train train = new Train();
 		System.out.println(train.makeNoise());
+		
+		Truck f250 = new Truck();
+		System.out.println(f250.makeNoise());
+		
 
 	}
 
