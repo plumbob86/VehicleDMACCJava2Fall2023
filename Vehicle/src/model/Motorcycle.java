@@ -31,6 +31,7 @@ public class Motorcycle {
      * @param model The model name of the motorcycle
      */
     public Motorcycle(int year, String make, String model) {
+        super();
         this.year = year;
         this.make = make;
         this.model = model;
