@@ -6,10 +6,17 @@ package model;
  * CIS175 - Fall 2023
  * Aug 28, 2023
  */
+ /**
+ * @author Kenneth Nimmo - Knimmo
+ * CIS175 - Fall 2021
+ * Aug 24, 2023
+ */
 public class Car {
 	private String name = "Car"; // name of vehicle
 	private int passangers; // amnt of passangers the car can hold
 	private double maxSpeed;// the max speed of car
+	private int weight;
+	private int numWheels;
 	
 	/**
 	 * 
@@ -26,8 +33,14 @@ public class Car {
 	}
 
 	// all getters and setters
-	public String getName() {
-		return name;
+
+	
+	public int getWeight() {
+		return weight;
+	}
+	
+	public void setWeight(int weight)  {
+		this.weight = weight;
 	}
 	
 	public void  setName(String name) {
@@ -54,6 +67,17 @@ public class Car {
 		return "beep beep";
 	}
 	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getNumWheels() {
+		return numWheels;
+	}
+	
+	public void setNumWheels(int wheels) {
+		this.numWheels = wheels;
+	}
 	
 
 }
