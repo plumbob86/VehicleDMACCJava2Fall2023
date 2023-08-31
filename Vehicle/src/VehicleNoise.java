@@ -2,7 +2,7 @@ import model.Car;
 import model.Example;
 import model.Car;
 import model.Train;
-
+import model.Boat;
 public class VehicleNoise {
 	
 	public static void main(String[] args) {
@@ -12,6 +12,9 @@ public class VehicleNoise {
 		/*
 		 * Add a call to your vehicle below this comment.
 		 */
+		
+		Boat boat = new Boat();
+		System.out.println(boat.makeNoise());
 		
 		Car car = new Car();
 		System.out.println(car.makeNoise());
@@ -26,4 +29,4 @@ public class VehicleNoise {
 
 	}
 
-}
+}	
