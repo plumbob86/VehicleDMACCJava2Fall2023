@@ -71,7 +71,7 @@ public class Example {
 		// TODO Auto-generated method stub
 		return "Example [name=" + name + ", length=" + length + "inches, habitat=" + habitat + "]";
 	}
-
+		//git demo
 	public String makeNoise() {
 		return "Example!";
 	}
