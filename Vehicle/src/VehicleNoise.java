@@ -2,6 +2,7 @@ import model.Car;
 import model.Example;
 import model.Car;
 import model.Train;
+import model.Semi;
 
 public class VehicleNoise {
 	
@@ -23,6 +24,11 @@ public class VehicleNoise {
 		// my vehicle noise
 		Car Mustang = new Car();
 		System.out.println(Mustang.makeNoise());
+		
+		// new vehicle noise		
+		Semi semi = new Semi();
+		System.out.println(semi.makeNoise());
+		
 
 	}
 
